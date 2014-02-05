@@ -10,6 +10,7 @@ namespace test.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Test = "t";
             return View();
         }
 
